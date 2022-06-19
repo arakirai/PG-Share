@@ -25,7 +25,7 @@ console.log(`5教科の平均点は ${(suugaku + kokugo + rika + syakai + eigo) 
 
 
 const add = (suugaku, kokugo, rika, syakai, eigo) => {
-    console.log("数学、国語、理科、社会、英語の各点点です");
+    console.log("数学、国語、理科、社会、英語の各点です");
     console.log(suugaku, kokugo, rika, syakai, eigo);
 
     console.log("数学、国語、理科、社会、英語の合計点です");
