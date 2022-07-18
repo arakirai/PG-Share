@@ -20,18 +20,19 @@ let kyouka = 5
 console.log(`5教科の合計は ${suugaku + kokugo + rika + syakai + eigo} です`);
 console.log(`5教科の平均点は ${(suugaku + kokugo + rika + syakai + eigo) / kyouka} です`)
 
+
 //-------パターン2------//
-// コメント追加
+
 
 const add = (suugaku, kokugo, rika, syakai, eigo) => {
-  console.log("数学、国語、理科、社会、英語の各点点です");
-  console.log(suugaku, kokugo, rika, syakai, eigo);
+    console.log("数学、国語、理科、社会、英語の各点です");
+    console.log(suugaku, kokugo, rika, syakai, eigo);
 
-  console.log("数学、国語、理科、社会、英語の合計点です");
-  console.log(suugaku + kokugo + rika + syakai + eigo);
+    console.log("数学、国語、理科、社会、英語の合計点です");
+    console.log(suugaku + kokugo + rika + syakai + eigo);
 
-  console.log("数学、国語、理科、社会、英語の平均点です");
-  console.log((suugaku + kokugo + rika + syakai + eigo) / 5);
+    console.log("数学、国語、理科、社会、英語の平均点です");
+    console.log((suugaku + kokugo + rika + syakai + eigo) / 5);
 
 };
 
